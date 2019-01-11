@@ -8,7 +8,7 @@ RUN curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poet
 ENV PATH /home/circleci/.poetry/bin:$PATH
 RUN poetry config settings.virtualenvs.in-project true
 
-RUN pip install awscli fabric ansible slackclient
+RUN sudo pip install awscli fabric ansible slackclient
 
 WORKDIR /home/circleci
 CMD ["bash"]
