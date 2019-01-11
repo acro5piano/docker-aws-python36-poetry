@@ -8,3 +8,7 @@ A docker image for CircleCI including:
 - Fabric
 - Ansible
 - Slack Client
+
+# Pull
+
+docker pull acro5piano:python-deploy
