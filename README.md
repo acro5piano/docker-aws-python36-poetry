@@ -1,0 +1,1 @@
+# docker-aws-python36-poetry
