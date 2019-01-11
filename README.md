@@ -6,5 +6,5 @@ A docker image for CircleCI including:
 - Poetry
 - AWS Cli
 - Fabric
-- ansible
-- slackclient
+- Ansible
+- Slack Client
